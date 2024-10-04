@@ -1,0 +1,96 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f7f6;
+  color: #333;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background-color: #2b4d7a;
+  color: #fff;
+}
+
+.nav a {
+  color: #fff;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.hero {
+  height: 80vh;
+  background: linear-gradient(135deg, #2b4d7a, #e1e5eb);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.hero p {
+  font-size: 1.5rem;
+}
+
+.btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #2b4d7a;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.skills, .projects {
+  padding: 40px;
+  text-align: center;
+}
+
+.skills-grid, .project-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.skill-card, .project-card {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.project-card > a {
+  color: #333a3f
+}
+
+.project-card > a:hover {
+  height: 30vh;
+}
+
+footer {
+  padding: 20px;
+  background-color: #333a3f;
+  color: #fff;
+  text-align: center;
+}
+
+footer a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #0a66c2; /* LinkedIn blue */
+}
