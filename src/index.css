@@ -41,12 +41,17 @@ body {
 .btn {
   margin-top: 20px;
   padding: 10px 20px;
-  background-color: purple;
-  color: #fff;
+  background-color: #ffffff6d;
+  color: purple;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   text-decoration: none;
+}
+
+.btn:hover {
+  background-color: purple;
+  color: #FFF;
 }
 
 .skills, .projects {
@@ -68,15 +73,15 @@ body {
   padding: 20px;
   width: 300px;
   border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
 .project-card > a {
   color: #333a3f;
 }
 
-.project-card > a:hover {
-  height: 30vh;
+.project-card:hover, .skill-card:hover {
+  box-shadow: 2px 4px 6px rgba(0,0,0,1);
 }
 
 .contact {
@@ -86,6 +91,7 @@ body {
   text-align: center;
   height: 50vh;
   align-items: center;
+  background: linear-gradient(135deg, purple, #e1e5eb)
 }
 
 .email-button {
@@ -109,13 +115,14 @@ body {
 }
 
 .contact a:hover {
-  color: #0a66c2;
+  color: purple;
 }
 
 .icon-container {
   display:flex;
   justify-content: space-evenly;
-  height: 100%;
+  margin-top: 30px;
+  height: auto;
   align-items: center;
   flex-wrap: wrap;
 }
