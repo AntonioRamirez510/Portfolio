@@ -5,16 +5,16 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
-import Footer from './components/Footer';
+import Contact from './components/Contact';
 
 const App = () => {
   return (
     <div className="App">
-      <Header />
+      {/* <Header /> */}
       <Hero />
       <Skills />
       <Projects />
-      <Footer />
+      <Contact />
     </div>
   );
 }

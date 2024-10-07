@@ -10,7 +10,7 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 20px 40px;
-  background-color: #2b4d7a;
+  background-color: purple;
   color: #fff;
 }
 
@@ -22,7 +22,7 @@ body {
 
 .hero {
   height: 80vh;
-  background: linear-gradient(135deg, #2b4d7a, #e1e5eb);
+  background: linear-gradient(135deg, purple, #e1e5eb);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -41,7 +41,7 @@ body {
 .btn {
   margin-top: 20px;
   padding: 10px 20px;
-  background-color: #2b4d7a;
+  background-color: purple;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -52,6 +52,7 @@ body {
 .skills, .projects {
   padding: 40px;
   text-align: center;
+
 }
 
 .skills-grid, .project-grid {
@@ -71,26 +72,65 @@ body {
 }
 
 .project-card > a {
-  color: #333a3f
+  color: #333a3f;
 }
 
 .project-card > a:hover {
   height: 30vh;
 }
 
-footer {
+.contact {
   padding: 20px;
   background-color: #333a3f;
   color: #fff;
   text-align: center;
+  height: 50vh;
+  align-items: center;
 }
 
-footer a {
+.email-button {
+  padding:  20px;
+  font-size: 16px;
+  background: #ffffffa1;
+  font-weight: bold;
+  border: none;
+  border-radius: 25px;
+}
+
+.email-button:hover {
+  cursor: pointer;
+  background: purple;
+}
+
+.contact a {
   color: #fff;
   margin: 0 10px;
   text-decoration: none;
 }
 
-.footer a:hover {
-  color: #0a66c2; /* LinkedIn blue */
+.contact a:hover {
+  color: #0a66c2;
+}
+
+.icon-container {
+  display:flex;
+  justify-content: space-evenly;
+  height: 100%;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.github, .linkedin {
+  display: flex;
+  flex-direction: column;
+}
+
+.github a svg, .linkedin a  svg{
+  height: 20vh;
+}
+
+
+.linkedin a:hover, .github a:hover {
+  text-shadow: 30px 30px 1px #0a66c2;
+  cursor:pointer;
 }
