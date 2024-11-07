@@ -24,7 +24,7 @@ const Contact = () => {
               <FontAwesomeIcon icon={faGithub}/>
             </a>
          </div>
-  
+
           <div className="linkedin">
             Reach me on Linkedin
             <a href="https://www.linkedin.com/in/antonio-ramirez-dev/"
