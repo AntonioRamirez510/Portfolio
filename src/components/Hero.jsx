@@ -1,5 +1,5 @@
 import React from 'react';
-import fishin from '../assets/Caught_a_fish.PNG'
+import fishin from '/Caught_a_fish.PNG'
 
 const Hero = () => {
   return (

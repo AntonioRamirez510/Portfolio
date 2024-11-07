@@ -1,8 +1,9 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub} from '@fortawesome/free-brands-svg-icons';
-import schedge from '../assets/Schedge.PNG'
-import lemonLarry from '../assets/LemonLarry.PNG'
+import schedge from '/Schedge.PNG'
+import lemonLarry from '/LemonLarry.PNG'
+import sweetsByTina from '/sweetsByTina.PNG'
 
 
 const Projects = () => {
@@ -24,6 +25,12 @@ const Projects = () => {
           <p>An automated scheduling tool for small businesses.</p>
           <a href="https://github.com/AntonioRamirez510/schedge" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faGithub} size="2x" /> Schedge GitHub</a>
+        </div>
+        <div className="project-card">
+          <img className="lemonLarry-logo"src={sweetsByTina}></img>
+          <p>Order Desserts Online! <br></br> Request Custom Sweets!</p>
+          <a href="https://github.com/AntonioRamirez510/sweetsbyTina" target="_blank" rel="noopener noreferrer">
+          <FontAwesomeIcon icon={faGithub} size="2x" /> Sweets by Tina GitHub</a>
         </div>
 
       </div>

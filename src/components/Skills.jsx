@@ -1,10 +1,10 @@
 import React from 'react';
-import react from '../assets/React.PNG'
-import htmlCssLogo from '../assets/Html-css-logo.PNG'
-import javascript from '../assets/JavaScript-logo.PNG'
-import nodeLogo from '../assets/node-logo.PNG'
-import prismaLogo from '../assets/prisma_logo.PNG'
-import threejs from '../assets/threejs.PNG'
+import react from '/React.PNG'
+import htmlCssLogo from '/Html-css-logo.PNG'
+import javascript from '/Javascript-logo.PNG'
+import nodeLogo from '/node-logo.png'
+import prismaLogo from '/prisma_logo.PNG'
+import threejs from '/threejs.png'
 
 const Skills = () => {
   return (
